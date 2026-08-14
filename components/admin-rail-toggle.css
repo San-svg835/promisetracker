@@ -1,0 +1,5 @@
+.pt-rail-toggle-button{position:fixed;top:96px;right:20px;z-index:9999;width:44px;height:44px;border-radius:10px;border:0;background:var(--primary);color:var(--primary-foreground);display:grid;place-items:center;font-size:18px;box-shadow:0 8px 18px rgba(16,33,59,.08);cursor:pointer}
+.pt-rail-toggle-button:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(16,33,59,.08)}
+
+/* Hide rail when admin profile page is open so full profile is visible */
+.admin-control-center:has(.admin-profile-page) .admin-rail{display:none!important}
